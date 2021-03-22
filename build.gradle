@@ -23,6 +23,11 @@ dependencies {
 	}
 }
 
+task print {
+	doLast{
+		println "github push test"
+	}
+}
 test {
 	useJUnitPlatform()
 }
